@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Steinfield</title>
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+</head>
+<body class="container">
+<a href="#" class="Logo">
+    <img src="assets/image/logo.png" alt="logo" id="logo4">
+</a>
+<div>
+   <nav style="font-weight:Bold">
+    <ul>
+        <li><a href="#Login">Login</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Brands">Brands</a></li>
+    </ul>
+</nav>
+</div>
+<div id="background-image">
+    <div id="content">
+        <div id="cont">
+             <h3 style="font-style:italic; font-size:2vw; padding-right:0;" >
+        Just Dropped
+      </h3>
+<h1 style="font-size:5vw; text-shadow: 2px 2px; font-weight:lighter; font-style:italic">
+ Feel Authentic<br> Peace<br>Walking in<br> Comfort<br>
+    <input type="submit" value="Shop Now" id="shop" style="font-style:italic;">
+</h1>
+        </div>
+        <div id="cont2">
+           <h2 style="font-size:2vw; color:white; font-weight:bold;">SIGN UP</h2>
+                <div id="cont3">
+            <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+                <h4>First Name</h4>
+                <input type="text" name="fname" placeholder="Enter your First name">
+                <h4>Last Name</h4>
+                <input type="text" name="lname" placeholder="Enter your Last name">
+                 <h4>Email / Contact Number</h4>
+                <input type="email" name="ename" placeholder="Enter your email/contact no">
+<br><br>
+               <input type="submit" value="SIGN UP" id="shop1" style="font-style:italic; font-weight:bold;">
+                </form>
+                </div>
+
+        </div>
+        </div>
+  </div>
+<div>
+<h4 style="font-weight:lighter;text-align:center; font-size:4vw;text-shadow:1px 2px;">Popular Collections</h4>
+
+    <div class="thumbnail1">
+  <img src="assets/image/Footwear1.png" class="A" alt="1" >
+<h5> Marten's<br> Rs.820 </h5>
+</div>
+<div class="thumbnail1">
+  <img src="assets/image/Footwear2.png" class="A" alt="2">
+<h5> Sneakers For Men <br> Rs.840 </h5>
+</div>
+<div class="thumbnail1">
+  <img src="assets/image/Footwear3.png" class="A" alt="3" >
+<h5> Grenson <br> Rs.780 </h5>
+</div>
+    <div class="thumbnail1">
+  <img src="assets/image/Footwear4.png" class="A" alt="4" >
+<h5> Red Wing <br> Rs.580 </h5>
+</div>
+<div class="thumbnail1">
+  <img src="assets/image/Footwear5.png" class="A" alt="5" >
+<h5> R.M. Williams and Clarks <br> Rs.940 </h5>
+</div>
+<div class="thumbnail1">
+  <img src="assets/image/Footwear6.png" class="A" alt="6">
+<h5> Stuart Weitzman <br> Rs.550 </h5>
+</div>
+</div>
+ <div id="footer">
+    <div class="left">
+        <ul>
+            <li class="lis">Products</li>
+            <li>Bata</li>
+             <li>Adidas</li>
+             <li>Reebok</li>
+             <li>Puma</li>
+             <li>Woodland</li>
+        </ul>
+    </div>
+    <div class="left">
+        <ul>
+            <li class="lis">Features</li>
+            <li>Alleviate Pain</li>
+             <li>Protect Against Infections</li>
+             <li>Best Quality</li>
+             <li>Easy to Wear</li>
+    </ul>
+    </div>
+     <div class="left">
+        <ul >
+            <li class="lis">Informations</li>
+            <li>About us</li>
+             <li>FAQ</li>
+             <li>Privacy policy</li>
+             <li>Shipping and Returns</li>
+            <li>Terms and conditions</li>
+             <li>Terms of service</li>
+             <li>Refund policy</li>
+    </ul>
+    </div>
+      <div class="left">
+        <ul >
+            <li class="lis">Locate store</li>
+            <li>Emporio,New Delhi</li>
+             <li>Mall of india,Noida</li>
+             <li>South Point Mall,Gurugram</li>
+             <li>Spencer Plaza,Chennai</li>
+        </ul>
+    </div>
+    <div class="left">
+        <ul >
+            <li class="lis">Help</li>
+            <li>Track your order</li>
+             <li>Payment Methods</li>
+             <li>How do I redeem my coupon</li>
+             <li>Cancellations</li>
+    </ul>
+    </div>
+     <div class="left">
+        <ul >
+            <li class="lis">Shop by</li>
+            <li>Men</li>
+             <li>Women</li>
+             <li>Kids</li>
+             <li>Indies</li>
+            <li>Sports</li>
+    </ul>
+    </div>
+     <div id="right">
+         <img src="assets/image/logo.png" alt="logo"  id="logo3">
+         <ul class="ul">
+             <li>Do follow us in </li>
+             <li>Instagram</li>
+             <li>Twitter</li>
+             <li>Facebook</li>
+         </ul>
+     </div>
+ </div>
+<script>
+function validateForm() {
+  let f = document.forms["myForm"]["fname"].value;
+  let l = document.forms["myForm"]["lname"].value;
+  let e = document.forms["myForm"]["ename"].value;
+  if (f == "") {
+    alert("All field should be filled out!!");
+    return false;
+  }
+  else if (l == ""){
+    alert("All field should be filled out!!");
+    return false;
+  }
+   else if (e == ""){
+    alert("All field should be filled out!!");
+    return false;
+  }
+  else{
+  alert("Form Submitted!!");
+  return true;
+  }
+}
+</script>
+</body>
+</html>
